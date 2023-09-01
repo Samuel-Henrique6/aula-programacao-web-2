@@ -1,37 +1,51 @@
 body {
-	margin: 0;
-	padding: 0;
-	background-color: #332E30;
+  margin: 0;
+  padding: 0;
+  background-color: #332e30;
+  scrollbar-width: none;
+  overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+  width: 0; /* Safari and Chrome */
+  display: none; /* Hide scrollbar for modern Webkit browsers */
 }
 
 .container {
-	width: 90%;
-	max-width: 1200px;
-	margin: 0 auto;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-h1, h2 {
-	color: white;
-	text-align: center;
-	color: red;
-    padding: 60px;
+h1,
+h2 {
+  color: white;
+  text-align: center;
+  color: red;
+  padding: 60px;
 }
 
 p {
-	color: white;
-	text-align: justify;
+  color: white;
+  text-align: justify;
 }
 
-figure{
-	text-align: center;
-	margin: 30px auto;
+figure {
+  text-align: center;
+  margin: 30px auto;
 }
 
 #music-dot {
-	display: flex;
-	margin: 10vw auto 0 auto;
+  display: flex;
+  margin: 10vw auto 0 auto;
 }
 
 figcaption {
-	color: white;
+  color: white;
+}
+
+#logo-img {
+  width: 64px;
+  height: auto;
+  border-radius: 50%;
 }
